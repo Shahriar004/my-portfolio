@@ -38,6 +38,12 @@
     font-weight: normal;
     color: #757575;
 }
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /* Nav styles */
 nav{
@@ -67,9 +73,25 @@ nav li{
 }
 
 /* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+
+}
+.banner-profile-picture{
+    width: 580px;
 }
 main{
     max-width: 1140px;
